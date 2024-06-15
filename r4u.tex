@@ -151,7 +151,10 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-\usepackage{ctex}
+
+\usepackage[fontset=macold,UTF8]{ctex}
+
+
 \KOMAoption{captions}{tableheading}
 \makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
@@ -221,7 +224,7 @@
 \begin{document}
 \maketitle
 
-\renewcommand*\contentsname{Table of contents}
+\renewcommand*\contentsname{目录}
 {
 \hypersetup{linkcolor=}
 \setcounter{tocdepth}{2}

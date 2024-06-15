@@ -21,11 +21,10 @@ format:
   html:
     theme: cosmo
   pdf:
-    include-in-header:
-      - text: |
-          \usepackage{ctex}
+    include-in-header: preamble.tex
     documentclass: scrreprt
     papersize: letter
+    toc-title: 目录
     colorlinks: true
     keep-tex: true
 
