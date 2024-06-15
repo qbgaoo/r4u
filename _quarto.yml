@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "r4u"
+  author: "Norah Jones"
+  date: "6/3/2024"
+
+  downloads: [pdf]
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    include-in-header:
+      - text: |
+          \usepackage{ctex}
+    documentclass: scrreprt
+    papersize: letter
+    colorlinks: true
+    keep-tex: true
+
+editor: visual
+
